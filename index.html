@@ -32,16 +32,19 @@
     <section class="ADM">
         <span class="editar-texto">Editar Produto</span>
         <hr class="editar-linha">
+        <form action="">
         <div class="quadrado-branco">
+            
             <div class="flex-quadrado">
                 <div class="flex-inputs-esquerda">
+                    
                     <input class="input-editar" type="text" id="nome"  placeholder="Nome: Lorem Ipsum">
                     
-                    <input class="input-editar" type="text" id="lote"  placeholder="Num.Lote: 0001">
+                    <input class="input-editar" type="number" id="lote"  placeholder="Num.Lote: 0001">
                     
-                    <input class="input-editar" type="text" id="valor"  placeholder="Valor: R$ 00,00">
+                    <input class="input-editar" type="number" id="valor"  placeholder="Valor: R$ 00,00">
                     
-                    <input class="input-editar" type="text" id="estoque"  placeholder="Estoque: 2">
+                    <input class="input-editar" type="number" id="estoque"  placeholder="Estoque: 2">
                     
                     <input class="input-editar" type="text" id="vinho"  placeholder="Tipo: Vinho">
                 </div>
@@ -52,12 +55,20 @@
             </div>
           
         </div>
+        <div class="container-submit">
+            <input type="submit" value="Salvar">
+        </div>
+    </form>
         <section class="fotos">
             <span class="editar-texto-fotos">Fotos</span>
             <hr class="editar-linha">
-            <div class="quadrado-branco">
-                <img class="img-download" src="./img/download.png" alt="">
-            </div>
+
+            <form>
+                <div>
+                    <label class="quadrado-branco-imagem" for="arquivo"></label>
+                    <input type="file" name="arquivo" id="arquivo">
+                </div>
+            </form>
         </section>
 
 
