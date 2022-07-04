@@ -148,7 +148,7 @@ input[type="submit"]{
     padding: 1vw 2vw;
     font-size: 1.5rem;
     background-color: #5E2200;
-    border: 1px solid #5E2200;
+    border: 0.13vw solid #5E2200;
     border-radius: 6vw;
     cursor: pointer;
     color: white;
@@ -240,7 +240,7 @@ input::-webkit-inner-spin-button {
     font-family: 'Gideon Roman';
     font-style: normal;
     font-weight: 400;
-    font-size:  4.28vw;
+    font-size: 3rem;
     line-height: 10.65vh;
     color: rgba(94, 34, 0, 0.74);
 }
@@ -299,12 +299,11 @@ footer{
     width: 2.4vw;
 }
 .informacoes h1{
-    width: 10.96vw;
     height: 4.01vh;
     font-family: 'Alef';
     font-style: normal;
     font-weight: 700;
-    font-size: 1.60vw;
+    font-size: 1.75rem;
     line-height: 4.56vh;
     color: #FFFFFF;
     margin-top: 0;
@@ -313,12 +312,12 @@ footer{
 }
 
 .informacoes h2{
-    width: 10.96vw;
+    width: 19.96vw;
     height: 4.01vh;
     font-family: 'Alef';
     font-style: normal;
     font-weight: 700;
-    font-size: 1.60vw;
+    font-size: 1.5rem;
     line-height: 4.56vh;
     color: #FFFFFF;
     margin-top: 0;
@@ -329,7 +328,7 @@ footer{
     font-family: 'Alef';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.33vw;
+    font-size: 1rem;
     line-height: 3.73vh;
     color: #FFFFFF;
 }
@@ -366,4 +365,116 @@ footer{
     flex-direction: column;
     height: 24.89vh;
     justify-content: space-between;
+}
+.imagem-whats{
+    margin-left: 0.5vw;
+    padding-right: 1vw;
+}
+.insta-texto{
+    margin-right: 0.7vw;
+}
+
+@media only screen and (max-width: 821px) and (min-width: 766px){
+
+
+}
+
+
+
+
+@media (max-width: 765px){
+    .flex-quadrado{
+        display: flex;
+        flex-direction: column;
+    }
+    .quadrado-branco{
+        width: 90vw;
+        height: 97vh;
+    }
+    .input-editar{
+        width: 80vw;
+        height: 7vh;
+    }
+    .flex-inputs-esquerda{
+        height: 67vh;
+    }
+    .flex-inputs-direita{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5vw;
+        height: 28vh;
+        margin-top: 0vh;
+        justify-content: space-around;
+    
+    }
+    .descrição{
+        width: 79vw;
+        height: 10vh;
+    }
+    .palavras-chave{
+        width: 79vw;
+        height: 10vh;
+    }
+    input[type="submit"]{
+        padding: 3vw 7vw;
+    }
+    .quadrado-branco-imagem{
+        height: 36vh;
+    }
+    .ADM{
+        height: 200vh;
+    }
+    footer{
+        height: 85.09vh;
+    }
+    .informacoes{
+        display: flex;
+        width: 64vw;
+        height: 12.1vh;
+        flex-direction: column;
+        padding-top: 3.45vw;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .informacoes h1{        
+    width: 50vw;
+    font-size: 1.5rem;
+    }
+    .informacoes h2{
+        width: 44vw;
+        font-size: 1.5rem;
+        padding-top: 5vh;
+    }
+    .informacoes span{
+        font-size: 1rem;
+        padding-top: 1vh;
+        width: 42vw;
+    }
+    .facebook{
+        width: 30.39vw;
+    }
+    .whatsapp{
+        width: 40.38vw;
+        margin-left: -11vw;
+    }
+    .instagram{
+        width: 32.2vw;
+    }
+    .instagram_img{
+        margin-right: 4vw;
+    }
+    
+    .informacoes img{
+        width: 6.4vw;
+    }
+    .imagem-whats{
+        padding-right: 4vw;
+    }
+   .informacoes .facebook_img{
+    width: 4.5vw;
+    padding-right: 5vw;
+    }
+    .espaço_texto_redes{
+    margin-left: 15vw;
+    }
 }
