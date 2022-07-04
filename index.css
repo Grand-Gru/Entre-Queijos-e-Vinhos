@@ -112,7 +112,7 @@ body{
   width: 62vw;
   height: 6vh;
   background-color:  #892227;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   font-family: 'Inter';
   font-style: normal;
@@ -130,7 +130,7 @@ body{
   display: flex;
   position: absolute;
   left: 0vh;
-  width: 14.95vw;
+  width: 20.95vw;
   height: 8vh;
   background-color: #32080B;
   border-radius: 1vw;
@@ -145,13 +145,12 @@ body{
   
 }
 
-.texto-entregues{
-  
+.texto-entregues {
   display: flex;
   position: absolute;
-  width: 25.95vw;
+  width: 21.95vw;
   height: 8vh;
-  margin-left: 14.4vw;
+  margin-left: 20.4vw;
   background-color: #892227;
   border-radius: 1vw;
   font-family: 'Inter';
@@ -162,27 +161,25 @@ body{
   justify-content: center;
   align-items: center;
   cursor: pointer;
-
-
 }
-.texto-enviado{
+.texto-enviado {
   display: flex;
-    position: absolute;
-    width: 25.95vw;
-    height: 8vh;
-    margin-left: 40.1vw;
-    background-color: #892227;
-    border-radius: 1vw;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.5rem;
-    color: #FFFFFF;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-
+  position: absolute;
+  width: 23.95vw;
+  height: 8vh;
+  margin-left: 42.1vw;
+  background-color: #892227;
+  border-radius: 1vw;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
+
 .botao2{
   font-family: 'Alef';
   font-style: normal;
@@ -199,6 +196,7 @@ body{
   padding-left: 3vh;
   margin-top: 23vh;
   padding-top: 1vh;
+  cursor: pointer;
 }
 .botao1{
   font-family: 'Alef';
@@ -211,6 +209,7 @@ body{
   border-radius: 12px;
   height: 13vh;
   padding: 3vh;
+  cursor: pointer;
 }
 .divbotao{
   margin-top: 26vh;
@@ -237,6 +236,7 @@ body{
   height: 8vh;
   display: flex;
   padding-left: 4vh;
+  cursor: pointer;
   width: 25vh;
 }
 .divbotao3{
@@ -374,23 +374,7 @@ height: 60vh;
   justify-content: flex-start;
   left: -10vh;
 }
-.texto-acaminho {
-  display: flex;
-  position: absolute;
-  left: 0vh;
-  width: 29.95vw;
-  height: 8vh;
-  background-color: #32080B;
-  border-radius: 1vw;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.5rem;
-  color: #FFFFFF;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
+
 
 .cpfinput{
 
@@ -427,15 +411,15 @@ padding-left: 73vw;
 }
 .divbotoes{
   flex-direction: column;
-  margin-left: 0;
+  margin-left: 22vw;
 }
 
-.texto-entregues{
-  margin-left: 29.2vw;
-  width: 35vw;
+.texto-entregues {
   display: flex;
   position: absolute;
+  width: 32.95vw;
   height: 8vh;
+  margin-left: 32.4vw;
   background-color: #892227;
   border-radius: 1vw;
   font-family: 'Inter';
@@ -450,9 +434,9 @@ padding-left: 73vw;
 .texto-enviado {
   display: flex;
   position: absolute;
-  width: 34.95vw;
+  width: 33.95vw;
   height: 8vh;
-  margin-left: 63.1vw;
+  margin-left: 65.1vw;
   background-color: #892227;
   border-radius: 1vw;
   font-family: 'Inter';
@@ -498,6 +482,23 @@ width: 95vw;
     margin-top: 4vh;
     margin-left: 2vh;
 
+}
+.texto-acaminho {
+  display: flex;
+  position: absolute;
+  left: 0vh;
+  width: 33.95vw;
+  height: 8vh;
+  background-color: #32080B;
+  border-radius: 1vw;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 .bloco-dados{
 width: 93vw;
