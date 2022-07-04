@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Ephesis&family=Gideon+Roman&family=Inter:wght@300;400&display=swap');
+
+body{
+    margin: 0;
+}
+
+.cadastro{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #892227;
+}
+
+
+.h1{
+    font-family: 'Ephesis';
+    font-size: 3rem;
+    font-weight: 400;
+    color: #5E2200;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.h2{
+    font-family: 'Gideon Roman';
+    font-size: 2rem;
+    font-weight: 400;
+    color: #5E2200;
+    opacity: 75%;
+}
+
+.p{
+    font-family: 'Inter';
+    font-size: 1.5rem;
+    font-weight: 400;
+    opacity: 60%;
+    margin: 0;
+}
+
+.quadrado_bege{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 105vh;
+    height: 88.6vh;
+    border-radius: 3.7vw;
+    background-color: #F6EBE4;
+}
+
+.containerII{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2vh 1vh;
+}
+
+.input_grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    
+}
+.termosTXT{
+    margin: 0px;
+}
+
+.input_first{
+    font-family: 'Inter';
+    font-size: 1.5rem;
+    font-weight: 400;
+    height: 5.6vh;
+    border-radius: 5.3vw;
+    border: 0.2vw solid transparent;
+    box-shadow: 3px 6px 7px rgba(0, 0, 0, 0.25);
+}
+
+.input{
+    font-family: 'Inter';
+    font-size: 1.5rem;
+    font-weight: 400;
+    height: 5.6vh;
+    border-radius: 5.3vw;
+    box-shadow: 3px 6px 7px rgba(0, 0, 0, 0.25);
+}
+
+.inputII{
+    font-family: 'Inter';
+    font-size: 1.5rem;
+    font-weight: 400;
+    height: 5.6vh;
+    border-radius: 5.3vw;
+    border: none;
+    box-shadow: 3px 6px 7px rgba(0, 0, 0, 0.25);
+}
+
+.column{
+    display: grid;
+    flex-direction: column;
+    row-gap: 3vw;
+}
+
+.termos_checkbox{
+    display: flex;
+    align-items: center;
+    
+}
+
+.checkbox{
+    width: 1.4vw;
+    height: 2.9vh;
+    cursor: pointer;
+}
+
+.termos_grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.termosTXT{
+    font-family: 'Inter';
+    font-size: 1.5rem;
+}
+
+.termosII{
+    font-family: 'Inter';
+    font-size: 0.6rem;
+    margin-bottom: 0;
+    margin-top: 3vh;
+}
+
+.correct{
+    border: 0.2vw solid #4BAE4F;
+}
+
+.incorrect{
+    border: 0.2vw solid rgb(211, 21, 21);
+    
+}
+
+.botao{
+    font-family: 'Alef';
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FAEAE1;
+    width: 29.5vw;
+    height: 7.5vh;
+    background-color: #892227;
+    border: none;
+    border-radius: 2.6vw;
+}
+
+.disable{
+    font-family: 'Alef';
+    font-size: 2rem;
+    font-weight: 700;
+    color: #f1f1f1;
+    width: 29.5vw;
+    height: 7.5vh;
+    background-color: #adadad;
+    border: none;
+    border-radius: 2.6vw;
+
+}
+
+

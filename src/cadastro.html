@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Queijos e vinhos</title>
+        <link rel="stylesheet" href="../styles/cadastro.css">
+        <script src="../js/cadastro.js"></script>
+    </head>
+    <body>
+        <section class="cadastro">
+            <div class="quadrado_bege">
+                <h1 class="h1">Entre queijos e vinhos</h1>
+                <h2 class="h2">Crie sua conta</h2>
+                <form class="column" name="forms">
+                    <div class="containerII">
+                            <input class="input_first" type="text" placeholder="Nome completo" name="nome" id="nome" onfocusout="username(),BOTAO()">
+                            <input class="input_first" type="number" placeholder="CPF" name="cpf" id="cpf" onfocusout="CPF(),BOTAO()">
+                            <input class="input_first" type="text" placeholder="E-mail" name="email" id="email" onfocusout="EMAIL(),BOTAO()"> 
+                            <input class="input_first" type="number" placeholder="Telefone" name="telefone" id="telefone" onfocusout="TEL(),BOTAO()">
+                            <input class="input_first" type="password" placeholder="Senha" name="senha" id="senha" onfocusout="SENHA()">
+                            <div class="input_grid">
+                                <p class="p">Gênero</p>
+                                <select class="inputII" name="gender" id="gender">
+                                    <option value="">Masculino</option>
+                                    <option value="">Feminino</option>
+                                    <option value="">Outro</option>
+                                </select>
+                            </div>              
+                            <input class="input_first" type="password" placeholder="Repetir senha" name="confirmasenha" id="confirmasenha" onfocusout="CONFIRMA(),BOTAO()">                        
+                            <div class="input_grid">
+                                <p class="p">Data de<br>nascimento</p>
+                                <input type="date" class="inputII" placeholder="dd/mm/yyyy">
+                            </div>
+                    </div>
+                    <div class="termos_grid">
+                        <div class="termos_checkbox">
+                            <input class="checkbox" type="checkbox" value="">
+                            <p class="termosTXT">Quero receber promoções e avisos no e-mail.</p>
+                        </div>
+                        <p class="termosII">Ao clicar em “Concluir cadastro” você concorda com <br>nossos termos, politica de dados e politica de cookies.</p>
+                        <input class="disable" type="button" value="Concluir cadastro" id="botao">
+                    </div>
+                        
+                </form>
+            </div> 
+        </section>
+</body>
+</html>
