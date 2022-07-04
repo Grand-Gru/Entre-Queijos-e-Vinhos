@@ -345,6 +345,13 @@ footer{
     }
 }
 @media (max-width: 765px){
+  header{
+    height: 23.8vh;
+  }
+    .pesquisar{
+    min-height: 2.53vh;
+    width: 42vw;
+   }
     .caixa {
         display: grid;
         grid-template-columns: auto;
@@ -443,7 +450,10 @@ footer{
 
 
     .logo {
-        width: 18vw;
+        width: 17vw;
+        position: relative;
+        right: 1vw;
+    
     }
 
     .pesquisar {
@@ -451,15 +461,19 @@ footer{
         align-items: center;
         width: 44vw;
         height: 4vh;
+        margin-right: 8vw;
+    }
+    .botoes_topo{
+        right: 4vw;
     }
     .container span{
         font-size: 1.5rem;
     }
     .botoes_topo img {
-        width: 10.26vw;
+        width: 14.26vw;
     }
     .botoes_topo span {
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
 
     .imagem_exemplo {
