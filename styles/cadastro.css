@@ -164,3 +164,62 @@ body{
 }
 
 
+
+
+@media (max-width: 765px){
+    .h1{
+        margin-top: 20vw;
+    }
+
+    .quadrado_bege{
+        height: unset;
+    }
+
+    .cadastro{
+        width: 96vw;
+    }
+
+    .containerII{
+        justify-content: center;
+        grid-template-columns: auto;
+    }
+
+    .column{
+        width: unset;
+
+    }
+    
+    .input_first{
+        width: 76vw;
+
+    }
+
+    .inputII{
+        width: 43vw;
+    }
+
+    .termosTXT{
+        font-size: 1rem;
+    }
+
+    .checkbox{
+        width: unset;
+        height: unset;
+    }
+
+    .termosII{
+        font-size: 0.9rem;
+    }
+
+    .disable{
+        width: unset;
+    }
+
+    .input{
+        width: 76vw;
+    }
+
+    .botao{
+        width: unset;
+    }
+}
