@@ -30,6 +30,7 @@ header{
     font-weight: 400;
     font-size: clamp(2.80vw,3vw,3.47vw);
     line-height: 12.17vh;
+    
     color: #F7EBE4;
 }
 .pesquisar{
@@ -467,7 +468,8 @@ footer{
         right: 4vw;
     }
     .container span{
-        font-size: 1.5rem;
+        font-size: 2rem;
+        width: 69vw;
     }
     .botoes_topo img {
         width: 14.26vw;
@@ -478,5 +480,8 @@ footer{
 
     .imagem_exemplo {
         height: 20.37vh;
+    }
+    .container{
+        width: 52vw;
     }
 }
