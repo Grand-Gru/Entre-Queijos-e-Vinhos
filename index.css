@@ -97,7 +97,7 @@ header{
 
 .imagem_exemplo{
     width: 100%;
-    height: 55.3757225433526vh;
+    height: 55.37vh;
     cursor: pointer;
 }
 
@@ -116,8 +116,8 @@ section{
 .caixa{
     display: grid;
     grid-template-columns: auto;
-    width: 13.157894736842104vw;
-    height: 9.364161849710984vh;
+    width: 13.15vw;
+    height: 9.36vh;
     background: #FFFFFF;
     border-radius: 2.3vh;
     justify-content: center;
@@ -171,8 +171,8 @@ section{
 }
 .container_produtos{
     display: flex;
-    width: 16.526315789473685vw;
-    height: 42.3121387283237vh;
+    width: 16.52vw;
+    height: 42.31vh;
     background: #FFFFFF;
     box-shadow: 0px 0.26vw 0.26vw rgb(0 0 0 / 25%);
     backdrop-filter: blur(0.26vw);
@@ -240,7 +240,7 @@ footer{
 
 .informacoes{
     display: flex;
-    width:  60.8vw;
+    width: 77.8vw;
     height: 12.10vh;
     flex-direction: row;
     padding-top: 3.45vw;
@@ -250,13 +250,12 @@ footer{
     width: 2.4vw;
 }
 .informacoes h1{
-    width: 22.68vw;
-    height: 1.93vh;
+    height: 4.01vh;
     font-family: 'Alef';
     font-style: normal;
     font-weight: 700;
-    font-size: 3.31vw;
-    line-height: 2.20vh;
+    font-size: 1.75rem;
+    line-height: 4.56vh;
     color: #FFFFFF;
     margin-top: 0;
     margin-bottom: 0;
@@ -264,12 +263,12 @@ footer{
 }
 
 .informacoes h2{
-    width: 10.96vw;
+    width: 19.96vw;
     height: 4.01vh;
     font-family: 'Alef';
     font-style: normal;
     font-weight: 700;
-    font-size: 1.60vw;
+    font-size: 1.5rem;
     line-height: 4.56vh;
     color: #FFFFFF;
     margin-top: 0;
@@ -280,7 +279,7 @@ footer{
     font-family: 'Alef';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.33vw;
+    font-size: 1rem;
     line-height: 3.73vh;
     color: #FFFFFF;
 }
@@ -317,4 +316,144 @@ footer{
     flex-direction: column;
     height: 24.89vh;
     justify-content: space-between;
+}
+.imagem-whats{
+    margin-left: 0.5vw;
+    padding-right: 1vw;
+}
+.insta-texto{
+    margin-right: 0.7vw;
+}
+@media only screen and (max-width: 908px) {
+    .whatsapp{
+        width: 17.38vw;
+    }
+    .imagem-whats{
+        margin-left: 0.5vw;
+        padding-right: 0vw;
+        position: relative;
+        right: 1vw;
+    }
+}
+@media (max-width: 765px){
+    .caixa {
+        display: grid;
+        grid-template-columns: auto;
+        width: 21.15vw;
+        height: 6.36vh;
+    }
+    .caixa span{
+        font-size: clamp(3.27vw,2.1vw,2.67vw)
+    }
+    .titulo span {
+      font-size: clamp(4.74vw,3.3vw, 4.14vw);
+    }
+    .linha{
+        width: 30.1vw;
+    }
+    .exemplo_premiado{
+        height: 25vh;
+    }
+    .container_produtos {
+        display: flex;
+        width: 20.52vw;
+        height: 21.31vh;
+    }
+    .adicionar {
+        width: 9.7vw;
+        height: 5.9vh;
+        font-size: clamp(1.53vw,1.53vw,1.93vw);
+        line-height: 2.39vh;
+        margin-bottom: 1vh;
+    }
+    .cartegorias{
+        margin-bottom: 0vh;
+    }
+    .titulo{
+        margin-bottom: 0vh;
+        margin-top: 0vh;
+    }
+    .container_produtos span {
+        font-size: clamp(2.2vw,1.53vw,1.93vw);
+    }
+
+    footer{
+        height: 85.09vh;
+    }
+    .informacoes{
+        display: flex;
+        width: 64vw;
+        height: 12.1vh;
+        flex-direction: column;
+        padding-top: 3.45vw;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .informacoes h1{        
+    width: 50vw;
+    font-size: 1.5rem;
+    }
+    .informacoes h2{
+        width: 44vw;
+        font-size: 1.5rem;
+        padding-top: 5vh;
+    }
+    .informacoes span{
+        font-size: 1rem;
+        padding-top: 1vh;
+        width: 42vw;
+    }
+    .facebook{
+        width: 30.39vw;
+    }
+    .whatsapp{
+        width: 40.38vw;
+        margin-left: -10vw;
+    }
+    .instagram{
+        width: 32.2vw;
+    }
+    .instagram_img{
+        margin-right: 4vw;
+    }
+    
+    .informacoes img{
+        width: 6.4vw;
+    }
+    .imagem-whats{
+        padding-right: 4vw;
+    }
+   .informacoes .facebook_img{
+    width: 4.5vw;
+    padding-right: 5vw;
+    }
+    .espaço_texto_redes{
+    margin-left: 15vw;
+    }
+
+
+
+    .logo {
+        width: 18vw;
+    }
+
+    .pesquisar {
+        display: flex;
+        align-items: center;
+        width: 44vw;
+        height: 4vh;
+    }
+    .container span{
+        font-size: 1.5rem;
+    }
+    .botoes_topo img {
+        width: 10.26vw;
+    }
+    .botoes_topo span {
+        font-size: 0.5rem;
+    }
+
+    .imagem_exemplo {
+        height: 20.37vh;
+    }
 }
