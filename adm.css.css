@@ -180,7 +180,6 @@ body{
 }
 
 .botao2{
-  text-decoration: none;
   font-family: 'Alef';
   font-style: normal;
   font-weight: 700;
@@ -225,7 +224,6 @@ body{
     width: 15vw;
 }
 .botao3 {
-  text-decoration: none;
   font-family: 'Alef';
   font-style: normal;
   font-weight: 700;
@@ -507,7 +505,5 @@ width: 95vw;
 width: 93vw;
 font-size: 0.8rem;
 }
-header{
-  width: 102vw;
-}
+
 }
