@@ -269,8 +269,8 @@ const filterByWordKey = word => {
 const filterByPrice = param => {
     gridProducts.innerHTML ="";
     const price = {
-        under:[0,150],
-        middle: [150,300],
+        under:[0,149],
+        middle: [149,300],
         over: [300,0]
     }[param]
 
